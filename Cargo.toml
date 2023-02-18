@@ -41,7 +41,7 @@ serde = { version = "1.0", features = [ "derive" ] }
 serde_json = "1.0"
 thiserror = "1.0"
 url = "2.3"
-tao = { git = "https://github.com/tauri-apps/tao", branch = "dev", default-features = false, features = [ "serde" ] }
+tao = { git = "https://github.com/tauri-apps/tao", rev = "ca1ed5decf516dc674b5e26815aa98346fca11ff", default-features = false, features = [ "serde" ] }
 http = "0.2.8"
 raw-window-handle = "0.4.3"
 
